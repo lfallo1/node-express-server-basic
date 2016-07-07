@@ -7,14 +7,12 @@ Often writing mock data on the front-end can take up more time than needed. Also
 This simple server will allow you to create your HTTP front-end architecture without having to write any "fake" code.
 
 ###Installing & Running
-To install and run simply follow these steps:
+To install and run follow these steps:
 
 1)  Clone this repo
 
-2)  Open your terminal and run `node server.js`
+2)  Open terminal and run `npm install` to install dependencies, and then `nodemon server.js` to start the server with livereloading
 
-3)  Your server is now available at `http://localhost:6060/`
+4)  Server will be available at `http://localhost:6069/`
 
-4)  You can run a quick test by entering this in your browser: `http://localhost:6060/animals`
-
-5)  Build your test data right in the server.js file. Create new endpoints as needed
+5)  You can run a quick test by entering this in your browser: `http://localhost:6060/ingredients`
